@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="todo-container">
+    <h2 class="todo-header"> Tache Hebdomadaire</h2>
+    <label for="day-select">Selectionner une journee</label>
+    <select id="day-select">
+      <option value="Monday">Lundi</option>
+      <option value="Tuesday">Mardi</option>
+      <option value="Wednesday">Mercredi</option>
+      <option value="Thursday">Jeudi</option>
+      <option value="Friday">Vendredi</option>
+      <option value="Saturday">Samedi</option>
+      <option value="Sunday">Dimanche</option>
+    </select>
+
+    <input id="task-input" type="text" placeholder="Entrer une nouvelle tache">
+    <button id="add-task-btn">Ajouter une tache</button>
+
+    <div id="tasks-container" class="task-list"></div>
+    <button id="delete-checked-btn" class="delete-btn">Supprimer 🗑️</button>
+  </div>
+
+  <script src="script.js">
+   </script>
+</body>
+</html>
